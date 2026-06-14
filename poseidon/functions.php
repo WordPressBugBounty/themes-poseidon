@@ -202,7 +202,7 @@ function poseidon_theme_fonts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'poseidon_theme_fonts', 1 );
-add_action( 'enqueue_block_editor_assets', 'poseidon_theme_fonts', 1 );
+add_action( 'enqueue_block_assets', 'poseidon_theme_fonts', 1 );
 
 
 /**
